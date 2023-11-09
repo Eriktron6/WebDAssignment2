@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  margin-bottom: .5vh;
+}
+
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+}
+
+.rectangle {
+  margin-top: 2%;
+  z-index: 1;
+}
+
+.rectangle2 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 3%;
+  margin: 5%;
+  max-height: fit-content;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 1%;
+  padding: 2%;
+
+}
+
+.summery {
+  padding-inline: 2%;
+  display: grid;
+  grid-template-rows: 1.2fr .8fr 1fr 1.2fr .7fr;
+}
+
+.moviesummery {
+  display: grid;
+  grid-template-rows: .3fr .2fr 1fr 1fr;
+  padding-inline: 2%;
+}
+
+.summery3 {
+  display: grid;
+  grid-template-rows: 2fr 2.1fr;
+  padding-inline: 2%;
+}
+
+.poppic {
+  opacity: 60%;
+
+}
+
+.poppic:hover {
+  opacity: 100%;
+  transition: 0.5s;
+  z-index: 2;
+
+
+}
+
+.rectangle4 {
+  background-color: rgb(0, 0, 0, 0.9);
+  max-width: 100%;
+  padding-inline: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10%;
+}
+
+h1 {
+  font-family: Federation;
+  font-size: 7vh;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+h2 {
+  text-align: start;
+  color: rgb(0, 167, 141);
+  font-family: Final Frontier;
+  font-size: 3.24vh;
+  padding-bottom: 0%;
+  letter-spacing: .3vh;
+  margin-bottom: 0%;
+  margin-top: 0%;
+
+
+}
+
+h3 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-family: Final Frontier;
+  font-size: 3vh;
+  padding-inline: 5%;
+  letter-spacing: .6vh;
+
+}
+
+h4 {
+  font-family: Federation;
+  font-size: 7vh;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  width: 100%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+h5 {
+  font-family: Federation;
+  font-size: 5vh;
+  color: rgb(180, 180, 88);
+  text-align: left;
+  line-height: 3vh;
+
+
+}
+
+p {
+  font-size: 2.6vh;
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.3;
+  text-align: left;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+
+}
+
+img {
+  width: 96%;
+  align-items: center;
+  margin: 2%;
+  z-index: 1;
+  border-radius: 3%;
+}
+
+@font-face {
+  font-family: 'Federation';
+  src: url('fonts/Federation.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Federation';
+  src: url('fonts/Final_Frontier.ttf') format('truetype');
+}
+
+#audio-player {
+  display: none;
+}
+
+.navigation_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  font-family: Final Frontier;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  z-index: 3;
+}
+
+.link {
+  color: #fff;
+  font-size: 4vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+  text-align: center;
+
+}
+
+.link1,
+.link2,
+.link3 {
+  font-size: 4vh;
+  text-decoration: none;
+  transition: 0.2s;
+  text-align: center;
+  color: #ffffff;
+
+
+
+}
+
+.link:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+
+}
+
+.link1:hover {
+  background-color: rgb(202, 0, 0);
+  border-color: rgb(0, 0, 0);
+  color: black;
+
+
+}
+
+.link2:hover {
+  background-color: rgb(0, 0, 202);
+  border-color: rgb(0, 0, 0);
+  color: black;
+
+
+}
+
+.link3:hover {
+  background-color: rgb(202, 202, 0);
+  border-color: rgb(0, 0, 0);
+  color: #000000;
+
+
+
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Final Frontier;
+  font-size: 2vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.logo4 {
+  align-items: center;
+}

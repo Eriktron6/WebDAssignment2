@@ -4,7 +4,10 @@ body {
   background-color: #000000;
   margin-bottom: .5vh;
 }
-
+@font-face {
+  font-family: 'Federation' 'Final Frontier';
+  src: url('D:\WebDAssignment2\Federation\Final_Frontier.ttf') format('tff');
+}
 
 .parallax {
   background-attachment: fixed;
